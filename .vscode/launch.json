@@ -2,17 +2,17 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "(lldb) Launch",
+      "name": "(gdb) Launch",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/a.out",
+      "program": "/home/utnso/Desktop/projects/vscode_c_debugger/a.out",
       "args": ["localhost"],
-      "stopAtEntry": false,
-      "cwd": "${workspaceFolder}",
+      "stopAtEntry": true,
+      "cwd": "/home/utnso/Desktop/projects/vscode_c_debugger/",
       "environment": [],
       "externalConsole": false,
-      "MIMode": "lldb",
-      "preLaunchTask": "Build with Clang"
+      "MIMode": "gdb",
+      "preLaunchTask": "build hello world on WSL"
     }
   ]
 }
